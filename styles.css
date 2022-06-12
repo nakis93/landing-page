@@ -1,29 +1,32 @@
 .header {
     background-color: #1F2937;
-
-
-
 }
+
 a {
     font-size: 18px;
     color: #E5E7EB;
-
 }
+
 h3 {
     font-size: 24px;
     color: #F9FAF8;
-
 }
+
 h1 {
     font-size: 48px;
     font-family: extra-bold;
     color: #F9FAF8;
 }
+
 .hero-image-left {
     background-color: #1F2937;
-
 }
+
 p {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.hero-image-right {
+    background-color: hsl(214deg 7% 46%);
 }
