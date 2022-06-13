@@ -1,11 +1,19 @@
+body {
+    margin: 0px;
+}
+
 .upper {
     background-color: #1f2937;
+    padding: 25px 45px 45px 25px;
 }
 
 .head {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 100px;
+    
+
 }
 
 .hero {
@@ -17,9 +25,11 @@
 .logo {
     font-size: 24px;
     color: #f9faf8;
+    margin: 10px 70% 10px 0px;
 }
 
-a {
+a { 
+    margin: auto;
     font-size: 18px;
     color: #e5e7eb;
 }
