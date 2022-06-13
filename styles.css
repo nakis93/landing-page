@@ -24,10 +24,18 @@ h1 {
     font-size: 48px;
     font-weight: bold;
     color: #F9FAF8;
+    margin: 0 0;
+}
+
+#images {
+    display: flex;
+    justify-content: space-around;
 }
 
 .hero-image-left {
     background-color: #1F2937;
+    margin-right: 50%;
+   
 }
 
 p {
@@ -35,6 +43,19 @@ p {
     color: #E5E7EB;
 }
 
+.hero-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-text {
+    margin: 0 0;
+}
+
 .hero-image-right {
     background-color: hsl(214deg 7% 46%);
+    margin: auto;
+    
+
 }
