@@ -1,0 +1,9 @@
+.upper {
+    background-color: #1f2937;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
