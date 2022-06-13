@@ -5,6 +5,7 @@ body {
 .upper {
     background-color: #1f2937;
     padding: 25px 45px 45px 25px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .head {
@@ -22,6 +23,16 @@ body {
     justify-content: space-between;
 }
 
+.hero-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 500px;
+
+}
+
 .logo {
     font-size: 24px;
     color: #f9faf8;
@@ -34,13 +45,31 @@ a {
     color: #e5e7eb;
 }
 
-.hero-main {
+.hero-text {
+    align-self: flex-start;
     font-size: 48px;
     color: #f9faf8;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
-.hero-secondary {
+.hero-paragraph {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+ button {
+    background-color: #4c74af;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+  }
+
+img {
+    height: 250px;
+    width: 500px;
 }
