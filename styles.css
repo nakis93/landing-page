@@ -147,6 +147,10 @@ img {
     margin: 35px 335px 35px 335px;
     font-family: 'Roboto', sans-serif;
     border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .two-liner {
@@ -164,5 +168,20 @@ img {
 .second-line {
     font-size: 22px;
     font-weight: 500;
+}
+
+.last-section button {
+    background-color: #3882f6;
+    border: none;
+    color: #f9faf8;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border-style: solid;
+    border-color: #f9faf8;
 }
 
