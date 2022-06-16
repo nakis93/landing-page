@@ -8,6 +8,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.mid {
+    font-family: 'Roboto', sans-serif;
+}
+
 .head {
     display: flex;
     flex-direction: row;
@@ -69,9 +73,11 @@ a {
     border-radius: 25px;
   }
 
-img {
+.hero img:last-child {
     height: 250px;
     width: 500px;
+    border-style: none;
+    border-radius: 0%; 
 }
 
 .mid {
@@ -95,8 +101,19 @@ img {
     gap: 40px;
 }
 
-.images > img {
+img {
     height: 120px;
     width: 120px;
     border-radius: 25px;
+    border-style: solid;
+    border-color: #3882f6;
+}
+
+.box {
+    display:inline-block
+}
+
+.caption {
+    width: 0;
+    min-width: 100%;
 }
